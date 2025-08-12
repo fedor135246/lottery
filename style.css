@@ -3,18 +3,42 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: gold;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, red, gold);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, red, gold);
+    height: 100vh;
+}
+.senter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .info{
+    margin: 10px;
     display: flex;
     flex-direction: row;
     gap: 5px;
-}
-body{
-    margin: 10px;
 }
 .line{
     width: 90vw;
     height: 1px;
     background-color: black;
     color: black;
+}
+.white{
+    color: white;
+    font-size: 60px;
+}
+.blok{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mar{
+    margin: 5px;
+}
+.text{
+    font-size: 17px;
+    margin: 5px;
 }
