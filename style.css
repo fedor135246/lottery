@@ -6,7 +6,7 @@
     background: gold;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, red, gold);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, red, gold);
-    height: 100vh;
+    height: 50vh;
 }
 .senter{
     display: flex;
@@ -39,6 +39,9 @@
     margin: 5px;
 }
 .text{
-    font-size: 17px;
+    font-size: 20px;
     margin: 5px;
+}
+body{
+    margin: 0px;
 }
